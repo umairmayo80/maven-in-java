@@ -24,12 +24,22 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>dev.ubaid.smpa.App</mainClass>
+                            <mainClass>dev.umair.smpa.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+
+    <dependencies>
+        <!-- Other dependencies... -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
+        </dependency>
+    </dependencies>
 
 </project>
